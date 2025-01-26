@@ -3,7 +3,7 @@
 - To see some of my public source code (albeit not C/C++), see the following repositories:
   - https://github.com/harrylynchh/airtight-container
   - https://github.com/harrylynchh/portfolio
-# ------------------------------ C Projects ---------------------------------
+# ---------------------- C Projects -------------------------
 # A PGM Reader
 1/26/2025
 
@@ -17,7 +17,7 @@ compressed human-readable digits to single bytes (therefore this is for valid ra
 The second half involved taking a "corrupt" plain pgm and translating it back into a valid readable raw pgm.
 This mostly involved the parsing of raster digits from corrupt sequences and re-formatting within the netpbm
 specification such that images that were previously unintelligible became clear again.
-# --------------------------- C++ Projects -------------------------------
+# ------------------- C++ Projects -----------------------
 # Gerp -- Grep Reimplementation
 11/23/2024
 
