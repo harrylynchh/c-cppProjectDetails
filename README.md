@@ -1,8 +1,23 @@
 # PLEASE NOTE:
 - **All source code is available for request from hlynch02@tufts.edu**
-- To see some of my public source code (albeit not C++), see the following repositories:
+- To see some of my public source code (albeit not C/C++), see the following repositories:
   - https://github.com/harrylynchh/airtight-container
   - https://github.com/harrylynchh/portfolio
+# ------------------------------ C Projects ---------------------------------
+# A PGM Reader
+1/26/2025
+
+**Summary:**
+-------------------------
+This project manifested itself in two parts, both relating to the translation of portable gray maps
+(pgms) which are a file format outlined in this [spec](https://netpbm.sourceforge.net/doc/pgm.html).
+The first part of the project was taking *plain* pgms and turning them into *raw* pgms. The difference
+between these two formats is that the former contained human-readable values for raster pixels and the latter
+compressed human-readable digits to single bytes (therefore this is for valid raster values from 0-255).
+The second half involved taking a "corrupt" plain pgm and translating it back into a valid readable raw pgm.
+This mostly involved the parsing of raster digits from corrupt sequences and re-formatting within the netpbm
+specification such that images that were previously unintelligible became clear again.
+# --------------------------- C++ Projects -------------------------------
 # Gerp -- Grep Reimplementation
 11/23/2024
 
