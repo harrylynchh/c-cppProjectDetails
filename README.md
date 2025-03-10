@@ -4,6 +4,16 @@
   - https://github.com/harrylynchh/airtight-container
   - https://github.com/harrylynchh/portfolio
 # ---------------------- C Projects -------------------------
+# 2D Unboxed Array Projects
+2/03/2025
+
+**Summary:**
+-------------------------
+A series of small projects that all revolve around a hand-rolled implementation of a 2-dimensional, 
+Unboxed Array.  Of these small projects, there is one which, given a .pbm file (portable bit map),
+turns all bordering pixels to white (unblackedges).  The second of the two verifies that a given sudoku game
+is properly solved.
+
 # A PGM Reader
 1/26/2025
 
